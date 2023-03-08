@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <textarea id="kunal"></textarea>
+    <button onclick="add()">Submit</button>
+    <h2 id="OK">Total Word Count=</h2>
+    <script>
+      function add() {
+        const value = document.getElementById("kunal").value;
+        document.getElementById("OK").innerHTML = value.length;
+      }
+    </script>
+  </body>
+</html>

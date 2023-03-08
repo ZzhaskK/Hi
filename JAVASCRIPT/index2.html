@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <textarea id="a"></textarea>
+    <button onclick="count()">Result</button>
+    <h2 id="ok">Total:</h2>
+    <script>
+      function count() {
+        let str = document.getElementById("a").value;
+        let word = str.trim();
+        console.log(str);
+        document.getElementById("ok").innerHTML = "Total : " + word.length;
+      }
+    </script>
+  </body>
+</html>
